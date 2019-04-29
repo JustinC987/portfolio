@@ -9,10 +9,10 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { HeaderComponent } from './header/header.component';
 import { ProjectsPageComponent } from './projects-page/projects-page.component';
 
-import { MatDividerModule } from '@angular/material';
+import { MatDividerModule, MatCardModule } from '@angular/material';
 @NgModule({
 	declarations: [ AppComponent, HeaderComponent, ProjectsPageComponent, HomePageComponent, FooterComponent ],
-	imports: [ BrowserModule, AppRoutingModule, BrowserAnimationsModule, MatDividerModule ],
+	imports: [ BrowserModule, AppRoutingModule, BrowserAnimationsModule, MatDividerModule, MatCardModule ],
 	providers: [],
 	bootstrap: [ AppComponent ]
 })

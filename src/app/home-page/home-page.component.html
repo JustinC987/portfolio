@@ -1,56 +1,146 @@
-<div class="home-container">
-    <div class="header-bottom">
-        <div class="container">
-            <div class="main-card-container">
-                <mat-card>
-                    <h1>Justin Clappsy</h1>
-                    <h3>Javascript developer</h3>
-                    <p>Justinc9877@gmail.com</p>
-                    <p>732-856-1660</p>
-                    <div class="icons">
-                        <i class="far fa-file" (click)="openResume()"
-                        matTooltip="Open Resume(pdf)"
-                        matTooltipPosition="above"
-                        ></i>
-                        <i class="fas fa-phone"
-                        matTooltip="Call 732-856-1660"
-                        matTooltipPosition="above">
-                        </i>
-                        <i class="fas fa-envelope"
-                        matTooltip="Email Justinc9877@gmail.com"
-                        matTooltipPosition="above"></i>
-                        <i class="fab fa-linkedin-in"
-                        matTooltip="View Linkedin"
-                        matTooltipPosition="above"></i>
-                        <i class="fab fa-github"
-                        matTooltip="View Github"
-                        matTooltipPosition="above"></i>
-                    </div>
-
-                    <mat-divider class="card-divider"></mat-divider>
     
-                    <mat-card-content>
-
-                        <h3>Education</h3>
-                        <div class="education">
-                            <ul> 
-                                <li>
-                                    Monmouth Univeristy, West Long Branch, New jersey
-                                </li>
-                                <li>Bachelor of Computer Science, concentration in Applied Computing</li>
-                                <li>Academic Minor in Information Technology</li>
-                                <li>Academic cumulative GPA: 3.358</li>
-                            </ul>
-                    </div>
-
-                    <div class="skills">
-                        <h3>Skills</h3>
-                        <p>Angular + typescript, Javascript, HTML, CSS, Angular Material, Node.js, Express, MongoDB, PostgreSQL, Java, C++</p>
-                    </div>
-                    </mat-card-content>
-                </mat-card>
-            </div>
-        </div>
+<div class="background-color">
     </div>
+
+    <div class="contact-card-container">
+
+    <mat-card class="contact-card">
+        <h1>Justin Clappsy</h1>
+        <h3>Javascript developer</h3>
+        <p>Justinc9877@gmail.com</p>
+        <p>732-856-1660</p>
+        <div class="icons">
+            <i class="far fa-file" (click)="openResume()"
+            matTooltip="Open Resume(pdf)"
+            matTooltipPosition="above"
+            ></i>
+            <i class="fas fa-phone"
+            matTooltip="Call 732-856-1660"
+            matTooltipPosition="above">
+            </i>
+            <i class="fas fa-envelope"
+            matTooltip="Email Justinc9877@gmail.com"
+            matTooltipPosition="above"></i>
+            <i class="fab fa-linkedin-in"
+            matTooltip="View Linkedin"
+            matTooltipPosition="above"></i>
+            <i class="fab fa-github"
+            matTooltip="View Github"
+            matTooltipPosition="above"></i>
+        </div>
+
+        <mat-divider class="card-divider"></mat-divider>
+
+        <mat-card-content>
+
+            <h3>Education</h3>
+            <div class="education">
+                <ul> 
+                    <li>
+                        Monmouth Univeristy, West Long Branch, New jersey
+                    </li>
+                    <li>Bachelor of Computer Science, concentration in Applied Computing</li>
+                    <li>Academic Minor in Information Technology</li>
+                    <li>Academic cumulative GPA: 3.358</li>
+                </ul>
+        </div>
+
+        <div class="skills">
+            <h3>Skills</h3>
+            <p>Angular + typescript, Javascript, HTML, CSS, Angular Material</p>
+            <p>Node.js, Express, MongoDB, PostgreSQL, Java, C++,</p>
+            <p>Automated Testing(Jasmine & Protractor)</p>
+        </div>
+        </mat-card-content>
+    </mat-card>
+</div>
+
+    <br><br>
+    <div class="container">
+
+    <mat-divider></mat-divider>
+
+    <h2>Work Experince</h2>
+
+    <mat-card class="experince-card">
+    <mat-card-content>
+            <h4>Transatlantic Reinsurance (Internship)</h4>
+            <div class="experince">
+                <p>May 2018 – September 2018</p>
+                <p>Front End Angular Developer/Quality Assurance</p>
+                <p>Unit/end to end tested front end of Angular web apps with Jasmine and Protractor
+                    (application that created/registered users and an application that uploaded claims or
+                    policy documents).
+                </p>
+                <p>Researched and developed reactive programming Angular web applications using RXJS
+                    on the front end and Signalr for the backend (Used Signalr for chat and notifications).
+                </p>
+            
+
+            </div>
+
+            <mat-divider></mat-divider><br>
+
+            <h4>Stateless Studio (Independent Contractor)</h4>
+            <div class="experince">
+                <p>September 2018 – January 2019</p>
+                <p>Front End Angular Developer</p>
+                <p>Assisted with backend using PostgreSQL, Node.js, and express.</p>
+                <p>Developed Angular web app where registered users can search for and make
+                    appointments with tutors. Used Cloudinary for image hosting, Stripe for payment
+                    options, and Google Maps Javascript Api for location data
+                </p>
+                
+            </div>
+        </mat-card-content>
+    </mat-card><br><br>
+
+    <mat-divider></mat-divider>
+
+    <h2>Projects</h2>
+    <mat-card class="project-card">
+        <mat-card-content>
+            <h3><i class="fas fa-user-astronaut"></i>EPStocks</h3>
+            <div class="project-content">
+                <iframe 
+                    src="https://www.youtube.com/embed/1VTfCoyNzZk" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+                <h4>Description</h4>
+                <p>EPStocks is a financial research platform that pulls data from Apis such as Alpha Vantage, IEX, and News API.</p>
+                <h4>Main Technologies used</h4>
+                <p>Front End: Angular + typescript, SCSS, HTML, Angular Material, HighCharts.js, HttpClient</p>
+                <p>Back End: MongoDB, Mongoose, Express, Passport.js</p>
+        
+                
+            </div>
+
+        </mat-card-content>
+    </mat-card><br><br>
+
+    <mat-divider></mat-divider><br><br>
+
+    <mat-card class="project-card">
+        <mat-card-content>
+            <h3><i class="fas fa-music"></i>My Music</h3>
+            <div class="project-content">
+                <iframe 
+                    src="https://www.youtube.com/embed/1VTfCoyNzZk" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+                <h4>Description</h4>
+                <p>MyMusic uses Spotify's web API to allow users to search for their favorite songs, artists, or albums. The User can then add this content to a favorites page and view it by track, album, or artist.</p>
+                <h4>Main Technologies used</h4>
+                <p>Front End: Angular + typescript, SCSS, HTML, Angular Material, HttpClient</p>
+                <p>Back End: MongoDB, Mongoose, Express, Passport.js, Node Spotify API</p>
+        
+                
+            </div>
+        </mat-card-content>
+    </mat-card><br><br>
 </div>
 

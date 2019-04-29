@@ -1,6 +1,93 @@
+.home-container {
+	width: 100%;
+	min-height: 150vh;
+}
+
+.header-bottom {
+	background-color: #e0e0e0;
+	height: 300px;
+}
+
 .container {
 	width: 90%;
 	margin-top: 2em;
 	padding: 5%;
-	min-height: 90vh;
+}
+.main-card-container {
+	margin-top: 5em;
+}
+
+mat-card {
+	display: block;
+	margin: auto;
+	width: 80%;
+}
+
+li h3 {
+	color: black;
+}
+
+h1,
+h3,
+ul,
+p {
+	text-align: center;
+}
+
+.icons {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 1em;
+}
+
+i {
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+	color: #1976d2;
+}
+
+i:hover {
+	cursor: pointer;
+	color: #2196f3;
+}
+
+mat-card-content h3 {
+	margin-top: 2em;
+	margin-bottom: 0;
+	color: black;
+}
+
+h3 {
+	color: #616161;
+}
+
+li {
+	color: #616161;
+}
+
+.education {
+	display: flex;
+	justify-content: center;
+}
+
+.education h3,
+.skills h3 {
+	color: #000000;
+}
+
+.skills h3 {
+	margin-top: 0;
+}
+
+.education li {
+	text-align: left;
+}
+
+.skills h3 {
+	text-align: center;
+}
+
+.skills p {
+	display: flex;
+	justify-content: center;
 }

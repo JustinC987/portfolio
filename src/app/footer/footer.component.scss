@@ -1,0 +1,51 @@
+.footer-style {
+	position: relative;
+	background-color: #fafafa;
+}
+
+.brand {
+	padding: 1rem 0;
+	font-size: 1.73rem;
+	text-decoration: none;
+	color: #000000;
+}
+
+.footer-links {
+	margin-left: 2em;
+	padding: 1.6rem 0;
+	font-size: 1rem;
+	cursor: pointer;
+	text-decoration: none;
+	color: #fafafa;
+}
+
+.footer-links:hover {
+	color: #212121;
+}
+
+.brand:hover {
+	color: #64b5f6;
+	text-decoration: none;
+}
+
+.upArrowBtn {
+	position: absolute;
+
+	top: 0;
+	right: 0;
+	height: 100%;
+
+	padding: 1.6rem;
+	text-align: center;
+	color: #000000;
+
+	border-left: solid 1px;
+	border-left-color: rgba(0, 0, 0, .12);
+
+	transition: background-color 0.2s;
+	cursor: pointer;
+}
+
+.upArrowBtn:hover {
+	color: #64b5f6;
+}
